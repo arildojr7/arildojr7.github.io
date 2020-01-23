@@ -54,17 +54,17 @@ $(document).ready(function () {
 
 	//***** Skill bar js
 
-	var skillbar = $(".skillbar");
+	// var skillbar = $(".skillbar");
 
-	skillbar.waypoint(function () {
-		skillbar.each(function () {
-			$(this).find(".skillbar-child").animate({
-				width: $(this).data("percent")
-			}, 1000);
-		});
-	}, {
-		offset: "80%"
-	});
+	// skillbar.waypoint(function () {
+	// 	skillbar.each(function () {
+	// 		$(this).find(".skillbar-child").animate({
+	// 			width: $(this).data("percent")
+	// 		}, 1000);
+	// 	});
+	// }, {
+	// 	offset: "80%"
+	// });
 
 	
     
